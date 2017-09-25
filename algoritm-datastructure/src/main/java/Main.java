@@ -10,9 +10,9 @@ public class Main {
 
     private static void myArray(){
         System.out.println(new Date());
-        DArray<Integer> dArray = new DArray<>(200000000);
+        DArray<Integer> dArray = new DArray<>(200000);
 
-        for (int i = 0; i <100000000 ; i++) {
+        for (int i = 0; i <200000 ; i++) {
             dArray.add(i);
         }
         System.out.println(new Date());
